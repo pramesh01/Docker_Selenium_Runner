@@ -1,8 +1,6 @@
 services:
   hub:
     image: selenium/hub:4.14
-    ports:
-    - 4444:4444
    # - 4442:4442
    # - 4443:4443
   chrome:
