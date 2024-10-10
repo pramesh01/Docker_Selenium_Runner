@@ -13,6 +13,7 @@ pipeline{
                 bat "docker-compose -f test_suite.yaml up"
             }
         }
+    }
     post {
         always {
             bat "docker-compose -f grid.yaml down"
@@ -20,6 +21,6 @@ pipeline{
 
         }
     }
-}
+
 
 }
