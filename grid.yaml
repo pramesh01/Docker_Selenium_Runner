@@ -6,7 +6,7 @@ services:
    # - 4442:4442
    # - 4443:4443
   chrome:
-    image: selenium/node-chrome:129.0
+    image: selenium/node-chromium:126.0
     shm_size: '2g'
     depends_on:
     - hub
@@ -14,7 +14,7 @@ services:
       replicas: 1
     env_file: .env
   firefox:
-    image: selenium/node-firefox:130.0
+    image: selenium/node-firefox:126.0
     shm_size: '2g'
     depends_on:
     - hub
