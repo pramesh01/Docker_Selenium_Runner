@@ -10,7 +10,7 @@ pipeline{
 
         stage('Automation script execution'){
             steps{
-                bat "docker-compose -f test_suite.yaml up"
+                bat "docker-compose -f test_suite.yaml up --pull always"
             }
         }
     }
