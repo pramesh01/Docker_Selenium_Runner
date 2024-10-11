@@ -1,6 +1,6 @@
 services:
   vendor-portal:
-    image: pramesh11/myprojectimage_oct24:latest
+    image: pramesh11/myprojectimage_oct24
     environment:
     - BROWSER=chrome
     - HUB_HOST=hub
@@ -9,7 +9,7 @@ services:
     volumes:
     - C:/Users/prame/DockerWorkspace/06-Jenkins_CICD_Pipeline/06-runner-approach1/output/vendorportal:/home/MyProject/test-output
   flight-registration:
-    image: pramesh11/myprojectimage_oct24:latest
+    image: pramesh11/myprojectimage_oct24
     environment:
     - BROWSER=firefox
     - HUB_HOST=hub
