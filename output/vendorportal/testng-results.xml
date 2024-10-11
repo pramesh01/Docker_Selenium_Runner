@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-11T06:58:30 GMT" name="Vendor Suite" finished-at="2024-10-11T06:58:45 GMT" duration-ms="14977">
+  <suite started-at="2024-10-11T07:04:56 GMT" name="Vendor Suite" finished-at="2024-10-11T07:05:11 GMT" duration-ms="14729">
     <groups>
     </groups>
-    <test started-at="2024-10-11T06:58:30 GMT" name="Test1" finished-at="2024-10-11T06:58:44 GMT" duration-ms="13607">
+    <test started-at="2024-10-11T07:04:56 GMT" name="Test1" finished-at="2024-10-11T07:05:08 GMT" duration-ms="12427">
       <class name="com.testcases.VendorPortalTest">
-        <test-method is-config="true" signature="getDriver(org.testng.ITestContext)[pri:0, instance:com.testcases.VendorPortalTest@5ef5c734]" started-at="2024-10-11T06:58:30 GMT" name="getDriver" finished-at="2024-10-11T06:58:33 GMT" duration-ms="2756" status="PASS">
+        <test-method is-config="true" signature="getDriver(org.testng.ITestContext)[pri:0, instance:com.testcases.VendorPortalTest@16eccb2e]" started-at="2024-10-11T07:04:56 GMT" name="getDriver" finished-at="2024-10-11T07:04:59 GMT" duration-ms="2535" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriver -->
-        <test-method is-config="true" signature="setparavalues(java.lang.String,java.lang.String,java.lang.String,int)[pri:0, instance:com.testcases.VendorPortalTest@5ef5c734]" started-at="2024-10-11T06:58:33 GMT" name="setparavalues" finished-at="2024-10-11T06:58:33 GMT" depends-on-methods="com.base.BaseTest.getDriver" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="setparavalues(java.lang.String,java.lang.String,java.lang.String,int)[pri:0, instance:com.testcases.VendorPortalTest@16eccb2e]" started-at="2024-10-11T07:04:59 GMT" name="setparavalues" finished-at="2024-10-11T07:04:59 GMT" depends-on-methods="com.base.BaseTest.getDriver" duration-ms="17" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,88 +44,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setparavalues -->
-        <test-method signature="loginTest()[pri:0, instance:com.testcases.VendorPortalTest@5ef5c734]" started-at="2024-10-11T06:58:33 GMT" name="loginTest" finished-at="2024-10-11T06:58:36 GMT" duration-ms="2282" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.testcases.VendorPortalTest@16eccb2e]" started-at="2024-10-11T07:04:59 GMT" name="loginTest" finished-at="2024-10-11T07:05:01 GMT" duration-ms="1940" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="DashboardTest()[pri:0, instance:com.testcases.VendorPortalTest@5ef5c734]" started-at="2024-10-11T06:58:36 GMT" name="DashboardTest" finished-at="2024-10-11T06:58:43 GMT" depends-on-methods="com.testcases.VendorPortalTest.loginTest" duration-ms="6961" status="PASS">
+        <test-method signature="DashboardTest()[pri:0, instance:com.testcases.VendorPortalTest@16eccb2e]" started-at="2024-10-11T07:05:01 GMT" name="DashboardTest" finished-at="2024-10-11T07:05:07 GMT" depends-on-methods="com.testcases.VendorPortalTest.loginTest" duration-ms="6117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DashboardTest -->
-        <test-method signature="logOut()[pri:0, instance:com.testcases.VendorPortalTest@5ef5c734]" started-at="2024-10-11T06:58:43 GMT" name="logOut" finished-at="2024-10-11T06:58:44 GMT" depends-on-methods="com.testcases.VendorPortalTest.DashboardTest" duration-ms="1439" status="PASS">
+        <test-method signature="logOut()[pri:0, instance:com.testcases.VendorPortalTest@16eccb2e]" started-at="2024-10-11T07:05:07 GMT" name="logOut" finished-at="2024-10-11T07:05:08 GMT" depends-on-methods="com.testcases.VendorPortalTest.DashboardTest" duration-ms="1668" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOut -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.testcases.VendorPortalTest@5ef5c734]" started-at="2024-10-11T06:58:44 GMT" name="quitDriver" finished-at="2024-10-11T06:58:44 GMT" duration-ms="92" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.testcases.VendorPortalTest@16eccb2e]" started-at="2024-10-11T07:05:08 GMT" name="quitDriver" finished-at="2024-10-11T07:05:08 GMT" duration-ms="102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
       </class> <!-- com.testcases.VendorPortalTest -->
     </test> <!-- Test1 -->
-    <test started-at="2024-10-11T06:58:30 GMT" name="Test3" finished-at="2024-10-11T06:58:44 GMT" duration-ms="13732">
+    <test started-at="2024-10-11T07:04:56 GMT" name="Test2" finished-at="2024-10-11T07:05:11 GMT" duration-ms="14727">
       <class name="com.testcases.VendorPortalTest">
-        <test-method is-config="true" signature="setupConfig()[pri:0, instance:com.testcases.VendorPortalTest@558bdf1f]" started-at="2024-10-11T06:58:30 GMT" name="setupConfig" finished-at="2024-10-11T06:58:30 GMT" duration-ms="21" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupConfig -->
-        <test-method is-config="true" signature="getDriver(org.testng.ITestContext)[pri:0, instance:com.testcases.VendorPortalTest@558bdf1f]" started-at="2024-10-11T06:58:30 GMT" name="getDriver" finished-at="2024-10-11T06:58:33 GMT" duration-ms="2756" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@78383390]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getDriver -->
-        <test-method is-config="true" signature="setparavalues(java.lang.String,java.lang.String,java.lang.String,int)[pri:0, instance:com.testcases.VendorPortalTest@558bdf1f]" started-at="2024-10-11T06:58:33 GMT" name="setparavalues" finished-at="2024-10-11T06:58:33 GMT" depends-on-methods="com.base.BaseTest.getDriver" duration-ms="19" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[john]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[john]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[ge]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[11]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setparavalues -->
-        <test-method signature="loginTest()[pri:0, instance:com.testcases.VendorPortalTest@558bdf1f]" started-at="2024-10-11T06:58:33 GMT" name="loginTest" finished-at="2024-10-11T06:58:35 GMT" duration-ms="2077" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method signature="DashboardTest()[pri:0, instance:com.testcases.VendorPortalTest@558bdf1f]" started-at="2024-10-11T06:58:35 GMT" name="DashboardTest" finished-at="2024-10-11T06:58:43 GMT" depends-on-methods="com.testcases.VendorPortalTest.loginTest" duration-ms="7296" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DashboardTest -->
-        <test-method signature="logOut()[pri:0, instance:com.testcases.VendorPortalTest@558bdf1f]" started-at="2024-10-11T06:58:43 GMT" name="logOut" finished-at="2024-10-11T06:58:44 GMT" depends-on-methods="com.testcases.VendorPortalTest.DashboardTest" duration-ms="1427" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logOut -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.testcases.VendorPortalTest@558bdf1f]" started-at="2024-10-11T06:58:44 GMT" name="quitDriver" finished-at="2024-10-11T06:58:44 GMT" duration-ms="90" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- com.testcases.VendorPortalTest -->
-    </test> <!-- Test3 -->
-    <test started-at="2024-10-11T06:58:30 GMT" name="Test2" finished-at="2024-10-11T06:58:45 GMT" duration-ms="14977">
-      <class name="com.testcases.VendorPortalTest">
-        <test-method is-config="true" signature="getDriver(org.testng.ITestContext)[pri:0, instance:com.testcases.VendorPortalTest@492691d7]" started-at="2024-10-11T06:58:30 GMT" name="getDriver" finished-at="2024-10-11T06:58:33 GMT" duration-ms="2756" status="PASS">
+        <test-method is-config="true" signature="getDriver(org.testng.ITestContext)[pri:0, instance:com.testcases.VendorPortalTest@492691d7]" started-at="2024-10-11T07:04:56 GMT" name="getDriver" finished-at="2024-10-11T07:04:59 GMT" duration-ms="2535" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -136,7 +75,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriver -->
-        <test-method is-config="true" signature="setparavalues(java.lang.String,java.lang.String,java.lang.String,int)[pri:0, instance:com.testcases.VendorPortalTest@492691d7]" started-at="2024-10-11T06:58:33 GMT" name="setparavalues" finished-at="2024-10-11T06:58:33 GMT" depends-on-methods="com.base.BaseTest.getDriver" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="setparavalues(java.lang.String,java.lang.String,java.lang.String,int)[pri:0, instance:com.testcases.VendorPortalTest@492691d7]" started-at="2024-10-11T07:04:59 GMT" name="setparavalues" finished-at="2024-10-11T07:04:59 GMT" depends-on-methods="com.base.BaseTest.getDriver" duration-ms="16" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -162,23 +101,84 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setparavalues -->
-        <test-method signature="loginTest()[pri:0, instance:com.testcases.VendorPortalTest@492691d7]" started-at="2024-10-11T06:58:33 GMT" name="loginTest" finished-at="2024-10-11T06:58:35 GMT" duration-ms="2186" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.testcases.VendorPortalTest@492691d7]" started-at="2024-10-11T07:04:59 GMT" name="loginTest" finished-at="2024-10-11T07:05:00 GMT" duration-ms="1926" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="DashboardTest()[pri:0, instance:com.testcases.VendorPortalTest@492691d7]" started-at="2024-10-11T06:58:35 GMT" name="DashboardTest" finished-at="2024-10-11T06:58:44 GMT" depends-on-methods="com.testcases.VendorPortalTest.loginTest" duration-ms="8735" status="PASS">
+        <test-method signature="DashboardTest()[pri:0, instance:com.testcases.VendorPortalTest@492691d7]" started-at="2024-10-11T07:05:01 GMT" name="DashboardTest" finished-at="2024-10-11T07:05:09 GMT" depends-on-methods="com.testcases.VendorPortalTest.loginTest" duration-ms="8679" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DashboardTest -->
-        <test-method signature="logOut()[pri:0, instance:com.testcases.VendorPortalTest@492691d7]" started-at="2024-10-11T06:58:44 GMT" name="logOut" finished-at="2024-10-11T06:58:45 GMT" depends-on-methods="com.testcases.VendorPortalTest.DashboardTest" duration-ms="1140" status="PASS">
+        <test-method signature="logOut()[pri:0, instance:com.testcases.VendorPortalTest@492691d7]" started-at="2024-10-11T07:05:09 GMT" name="logOut" finished-at="2024-10-11T07:05:11 GMT" depends-on-methods="com.testcases.VendorPortalTest.DashboardTest" duration-ms="1426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOut -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.testcases.VendorPortalTest@492691d7]" started-at="2024-10-11T06:58:45 GMT" name="quitDriver" finished-at="2024-10-11T06:58:45 GMT" duration-ms="86" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.testcases.VendorPortalTest@492691d7]" started-at="2024-10-11T07:05:11 GMT" name="quitDriver" finished-at="2024-10-11T07:05:11 GMT" duration-ms="88" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
       </class> <!-- com.testcases.VendorPortalTest -->
     </test> <!-- Test2 -->
+    <test started-at="2024-10-11T07:04:56 GMT" name="Test3" finished-at="2024-10-11T07:05:11 GMT" duration-ms="14729">
+      <class name="com.testcases.VendorPortalTest">
+        <test-method is-config="true" signature="setupConfig()[pri:0, instance:com.testcases.VendorPortalTest@558bdf1f]" started-at="2024-10-11T07:04:56 GMT" name="setupConfig" finished-at="2024-10-11T07:04:56 GMT" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupConfig -->
+        <test-method is-config="true" signature="getDriver(org.testng.ITestContext)[pri:0, instance:com.testcases.VendorPortalTest@558bdf1f]" started-at="2024-10-11T07:04:56 GMT" name="getDriver" finished-at="2024-10-11T07:04:59 GMT" duration-ms="2535" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@78383390]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method is-config="true" signature="setparavalues(java.lang.String,java.lang.String,java.lang.String,int)[pri:0, instance:com.testcases.VendorPortalTest@558bdf1f]" started-at="2024-10-11T07:04:59 GMT" name="setparavalues" finished-at="2024-10-11T07:04:59 GMT" depends-on-methods="com.base.BaseTest.getDriver" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[john]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ge]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setparavalues -->
+        <test-method signature="loginTest()[pri:0, instance:com.testcases.VendorPortalTest@558bdf1f]" started-at="2024-10-11T07:04:59 GMT" name="loginTest" finished-at="2024-10-11T07:05:01 GMT" duration-ms="2022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="DashboardTest()[pri:0, instance:com.testcases.VendorPortalTest@558bdf1f]" started-at="2024-10-11T07:05:01 GMT" name="DashboardTest" finished-at="2024-10-11T07:05:09 GMT" depends-on-methods="com.testcases.VendorPortalTest.loginTest" duration-ms="8595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashboardTest -->
+        <test-method signature="logOut()[pri:0, instance:com.testcases.VendorPortalTest@558bdf1f]" started-at="2024-10-11T07:05:09 GMT" name="logOut" finished-at="2024-10-11T07:05:11 GMT" depends-on-methods="com.testcases.VendorPortalTest.DashboardTest" duration-ms="1426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.testcases.VendorPortalTest@558bdf1f]" started-at="2024-10-11T07:05:11 GMT" name="quitDriver" finished-at="2024-10-11T07:05:11 GMT" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.testcases.VendorPortalTest -->
+    </test> <!-- Test3 -->
   </suite> <!-- Vendor Suite -->
 </testng-results>
